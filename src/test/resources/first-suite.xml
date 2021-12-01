@@ -1,0 +1,21 @@
+<suite name="Suite1">
+<!--    <test name="Nopackage">-->
+<!--        <classes>-->
+<!--            <class name ="FirstTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="lsn">
+        <classes>
+            <class name ="FirstTest">
+                <methods>
+                    <include name="TestLengthFirst"/>
+                    <include name="testNameExistDataProvider"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test>
+
+    </test>
+</suite>
